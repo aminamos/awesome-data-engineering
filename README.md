@@ -18,7 +18,8 @@ List of content
 10. [Docker](#docker)
 11. [Datasets](#datasets)
 12. [Monitoring](#monitoring)
-13. [Community](#community)
+13. [No Code](#no-code)
+14. [Community](#community)
 
 # Databases
 - Relational
@@ -64,7 +65,7 @@ List of content
 	* [Titan](https://titan.thinkaurelius.com) A scalable graph database optimized for storing and querying graphs containing hundreds of billions of vertices and edges distributed across a multi-machine cluster.
 	* [FlockDB](https://github.com/twitter-archive/flockdb) A distributed, fault-tolerant graph database by Twitter. Deprecated.
 - Distributed
-	* [DAtomic](https://www.datomic.com) The fully transactional, cloud-ready, distributed database.
+	* [Datomic](https://www.datomic.com) The fully transactional, cloud-ready, distributed database.
 	* [Apache Geode](https://geode.apache.org/) An open source, distributed, in-memory database for scale-out applications.
 	* [Gaffer ](https://github.com/gchq/Gaffer) A large-scale graph database
 - Timeseries
@@ -207,6 +208,14 @@ multi-processor, multi-core machines
 * [Dataform](https://dataform.co/) is an open-source framework and web based IDE to manage datasets and their dependencies. SQLX extends your existing SQL warehouse dialect to add features that support dependency management, testing, documentation and more.
 * [Census](https://getcensus.com/) is a reverse-ETL  tool that let you sync data from your cloud data warehouse to SaaS applications like Salesforce, Marketo, HubSpot, Zendesk, etc. No engineering favors required—just SQL.
 * [dbt](https://getdbt.com/) is a command line tool that enables data analysts and engineers to transform data in their warehouses more effectively.
+* [Kedro](https://kedro.org) is a framework for creating reproducible, maintainable and modular Python data science workflows.
+* [Prefect 2.0](https://www.prefect.io) is a second-generation dataflow coordination and orchestration platform.
+* [Metaflow](https://metaflow.org) is a human-friendly Python/R library that helps scientists and engineers build and manage real-life data science projects.
+* [Kale](https://github.com/kubeflow-kale/kale) aims at simplifying the Data Science experience of deploying Kubeflow Pipelines workflows.
+* [Flyte](https://github.com/flyteorg/flyte) is a Kubernetes-native workflow automation platform with support for Python, Java and Scala.
+* [Elyra](https://github.com/elyra-ai/elyra) extends JupyterLab with workflow functionality.
+* [LineaPy](https://github.com/LineaLabs/lineapy) transforms messy development scripts/notebooks to production-ready pipelines with two lines of code.
+
 
 # Data Lake Management
 * [lakeFS](https://github.com/treeverse/lakeFS) lakeFS is an open source platform that delivers resilience and manageability to object-storage based data lakes.
@@ -246,6 +255,10 @@ multi-processor, multi-core machines
 ## Prometheus
 * [Prometheus.io](https://github.com/prometheus/prometheus) An open-source service monitoring system and time series database
 * [HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption
+
+
+# No Code
+* [QuickTable](https://www.quicktable.io/) - Empowers everyone to access, clean, transform, and analyze data on databases, datalakes and warehouses with no code.
 
 # Community
 
